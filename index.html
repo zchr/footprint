@@ -28,7 +28,7 @@ $.getJSON('link/to/file.json', function (data) {
 
 	for (var i=0; i< 2192; i++) {
 
-    <!-- the location of the lat and long will depend on the organization of your JSON file. this organization is specific to Google's location history file -->
+    <!--the location of the lat and long will depend on the organization of your JSON file. this organization is specific to Google's location history file -->
 		var lat = parseFloat(data["locations"][i]["latitudeE7"])/10000000;
 		var longi = parseFloat(data["locations"][i]["longitudeE7"])/10000000;
 
